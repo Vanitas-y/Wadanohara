@@ -1,0 +1,69 @@
+@media(max-width: 1290px){
+    .header{
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 15px;
+    }
+
+    .header .logo img{
+        height: 35px;
+    }
+
+    .header .menu li a{
+        padding: 10px;
+    }
+
+    .home .info{
+        padding: 30px;
+    }
+
+    .home .info .titulo{
+        font-size: 30px;
+    }
+
+    .download .card{
+        width: 60%;
+    }
+    
+    .home .info{
+        color: #eaecee;
+    }
+
+    .home .info .text.fala{
+        color: #d0cff3;
+    }
+
+    .home::after{
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 80%, transparent 90%);
+    }
+}
+
+@media(max-width: 650px){
+    .home .info .text.fala{
+        margin-bottom: 5px;
+    }
+    .btn-download{
+        width: 100%;
+    }
+
+    .download{
+        padding: 20px;
+    }
+
+    .download .card{
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .btn-langs{
+        margin-top: 15px;
+        padding: 15px;
+    }   
+
+    .home::after{
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
+    }
+}
+
+    
